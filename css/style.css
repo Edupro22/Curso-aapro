@@ -1,7 +1,31 @@
-.titulo{background-color: blue;color: crimson;text-decoration:underline;font-size: medium; text-align: center;}
+/*Colores que voy a usar en la pagina
+color-primario: #0000ff
+color-secundario: #dc143c
+color-terciario: #8a2be2
+color-cuarto: #7ff00 
+*/
+
+/*Estilos para pagina index*/
+
+.titulo{
+    background-color: #0000ff;color: #dc143c;
+    text-decoration:underline;
+    font-size: medium;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
 .dato-n-y-a{color: blue;}    
 
-.edad{color: blueviolet;}
+.edad{color: #8a2be2;}
 
-.pais{color: chartreuse;}
+.pais{color: #7fff00;}
+
+/*Estilos para pagina clubes S:N*/
+
+.body .titulo-principal{background-color: #0000ff;color: #dc143c;text-decoration: underline;
+    text-align: center; font-size: medium;
+
+}
+.body.clubes{color: black;
+
+}
