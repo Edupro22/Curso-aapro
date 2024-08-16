@@ -6,19 +6,42 @@ color-cuarto: #7ff00
 */
 
 /*Estilos para pagina index*/
-
 .titulo{
-    background-color: #0000ff;color: #dc143c;
+    color: black;
     text-decoration:underline;
-    font-size: medium;
+    font-size: small;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px 30px 1px 30px;
 
-.dato-n-y-a{color: blue;}    
+}
+.titulo-de-paginas{ 
+    
+    margin: 15px 30px 3px 0px;
 
-.edad{color: #8a2be2;}
 
-.pais{color: #7fff00;}
+}
+
+.body{background-image: url(../imagenes/markus-spiske-KWQ2kQtxiKE-unsplash.jpg); 
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+
+}
+
+.paginas{
+    background-color: #ffffff;
+    margin: 2px 50px 2px 2px;
+    border: 2px chocolate solid;
+    padding-left: 17px;
+}
+
+.datos{padding-top: 25px;
+    padding-bottom: 25px;
+    
+
+}
 
 /*Estilos para pagina clubes S:N*/
 
@@ -28,4 +51,15 @@ color-cuarto: #7ff00
 }
 .body.clubes{color: black;
 
+}
+.main{margin-top: 400px;
+
+}
+.footer{
+    margin-top: 0px;
+    background-color: white;
+     text-align: center;
+    border: 2px black solid;
+    
+      
 }
