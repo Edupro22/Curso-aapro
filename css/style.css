@@ -18,6 +18,8 @@ color-cuarto: #7ff00
 .titulo-de-paginas{ 
     
     margin: 15px 30px 3px 0px;
+    text-align: center;
+
 
 
 }
@@ -37,11 +39,16 @@ color-cuarto: #7ff00
     padding-left: 17px;
 }
 
-.datos{padding-top: 25px;
-    padding-bottom: 25px;
-    
+.datos{
+    padding-top: 0px;
+    width: auto;
 
 }
+ .opinion{text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+
+ }
 
 /*Estilos para pagina clubes S:N*/
 
@@ -52,14 +59,21 @@ color-cuarto: #7ff00
 .body.clubes{color: black;
 
 }
-.main{margin-top: 400px;
+.main{margin-top: 100%;background-color: #0000ff;
 
 }
-.footer{
-    margin-top: 0px;
-    background-color: white;
-     text-align: center;
-    border: 2px black solid;
+.footer{background-color: white;
     
-      
+    text-align: center;
+      margin-top: 0px;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 0px;
+    
+
 }
+.descripcion-footer{
+
+}
+
+/*Estilos para pagina don bosco*/
