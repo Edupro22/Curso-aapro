@@ -6,6 +6,11 @@ color-cuarto: #7ff00
 */
 
 /*Estilos para pagina index*/
+.html,.body{width: 360px;
+    height: 740px;
+
+}
+
 .titulo{
     color: black;
     text-decoration:underline;
